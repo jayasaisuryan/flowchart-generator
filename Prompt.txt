@@ -1,0 +1,26 @@
+Generate a vertical flowchart for the 
+Steps to book a train ticket using IRCTC:-
+Log in to your IRCTC account through your registered user ID, password
+The ‘Book your ticket’ page appears
+Enter your origin and destination stations under the From-To option, date of journey and preferred class for travel
+In case you don’t have a fixed date for the journey, choose ‘Flexible with Date’ as an option
+Divyaang passengers can select ‘Divyaang’ as an option to avail corresponding facilities
+To find the list of trains, go to the ‘Find trains’ option
+The next page displays a list of trains available on the selected route
+For the route and timings, you can click on the train name
+To select one train from the list, click on the type of class available on the train
+To get the availability and fare, click on the ‘Check availability and fare’ tab. The fare displayed will be for one passenger
+To book the ticket on the selected train, click on ‘Book now’
+This will lead to the passenger reservation page. Check the train name, station names, class and date of journey displayed on the left side of the page
+Enter the names of passengers, age, gender, berth preference and food preference for each passenger. The maximum length of the name should be restricted to 16 characters. If the passenger is a senior citizen (above 60 years of age for male passengers and 58 years of age for female passengers), a senior citizen concession is available (40% of the base fare for men and 50% of the base fare for women) which can be availed by clicking on the relevant box. Senior citizens are required to carry an original proof of age during the journey
+To select a different boarding station, click on ‘Change Boarding Station’
+After providing the correct details, click on ‘Continue Booking’. To make any changes, users can click on ‘Replan Booking’.
+The ticket details, total fare and availability of berths is displayed. After checking all details click on ‘Continue Booking’ for the payment process
+Users can pay using credit cards, net banking, payment wallets and multiple payment services etc
+Select the preferred payment option and proceed to the ‘Make Payment’ option
+After successful payment and booking, the ticket confirmation page is displayed
+Virtual reservation message (VRM) in the form of an SMS will be received on your registered mobile number
+Booking confirmation mail will be received on your registered email ID
+To print the Electronic Reservation Slip (ERS) using the Print Ticket option
+For booking the return journey, users can click on ‘Book Return/Onward Ticket’, to book another ticket use the ‘Book Another Ticket’ option
+The ERS can be viewed under My Account > My Transactions > Booking History

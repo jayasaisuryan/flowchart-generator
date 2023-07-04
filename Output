@@ -1,0 +1,33 @@
+digraph Simple_Interest {
+    
+    // Start node
+    START [shape=ellipse, label="Start"];
+    
+    // Input node
+    INPUT [shape=parallelogram, label="Enter Principal Amount, Rate of Interest\nand Time Period (in years)"];
+    
+    // Process node for calculating the simple interest
+    CALCULATE [shape=rectangle, label="Calculate Simple Interest\nSI = (P x R x T)/100"];
+    
+    // Decision node to check if the interest is positive or negative
+    INTEREST_DECISION [shape=diamond, label="Is the Interest\nPositive or Negative?"];
+    
+    // Output nodes
+    POSITIVE_INTEREST [shape=rectangle, label="Display Positive Interest"];
+    NEGATIVE_INTEREST [shape=rectangle, label="Display Negative Interest"];
+    ERROR [shape=rectangle, label="Display Error Message\nInterest cannot be negative"];
+    
+    // End node
+    END [shape=ellipse, label="End"];
+    
+    // Connecting nodes
+    START -> INPUT;
+    INPUT -> CALCULATE;
+    CALCULATE -> INTEREST_DECISION;
+    INTEREST_DECISION -> POSITIVE_INTEREST [label="Yes"];
+    INTEREST_DECISION -> NEGATIVE_INTEREST [label="No"];
+    INTEREST_DECISION -> ERROR [label="Interest < 0"];
+    POSITIVE_INTEREST -> END;
+    NEGATIVE_INTEREST -> END;
+    ERROR -> END;
+}

@@ -1,0 +1,15 @@
+digraph LocomotiveWorking {
+  rankdir=LR;
+  Start [shape=ellipse, label="Start"];
+  Fuel [shape=diamond, label="Fuel"];
+  Combustion [shape=rectangle, label="Combustion"];
+  MechanicalEnergy [shape=rectangle, label="Mechanical Energy"];
+  Exhaust [shape=diamond, label="Exhaust"];
+  Stop [shape=ellipse, label="Stop"];
+
+  Start -> Fuel [label="Input fuel"];
+  Fuel -> Combustion [label="Fuel is ignited"];
+  Combustion -> MechanicalEnergy [label="Heat energy is converted to mechanical energy"];
+  MechanicalEnergy -> Exhaust [label="Mechanical energy is used to move train"];
+  Exhaust -> Stop [label="End of process"];
+}
